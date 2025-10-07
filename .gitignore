@@ -1,9 +1,5 @@
-.gradle/
-build/
-out/
-classes/
-.idea/
-*.iml
-*.ipr
-*.iws
-run/
+run
+build
+.gradle
+.idea
+run-data

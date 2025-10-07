@@ -1,14 +1,16 @@
 {
   "required": true,
-  "package": "com.teampotato.bocchium.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "refmap": "bocchium.refmap.json",
-  "minVersion": "0.8",
-  "injectors": {
-    "defaultRequire": 1
+  "package": "me.kall.bocchium.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "overwrites": {
+    "conformVisibility": false
   },
+  "minVersion": "0.8",
   "client": [
     "BlockOcclusionCacheMixin",
     "SodiumGameOptionPagesMixin"
-  ]
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
